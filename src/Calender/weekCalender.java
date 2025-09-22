@@ -4,7 +4,7 @@ import java.util.EnumMap;
 import java.util.Scanner;
 
 /**
- *Weekcalender makes a calender containing events for each day.<br>
+ *weekCalender makes a calendar containing events for each day.<br>
  * Has attributes: <br>
  * {@link weekCalender#activities}<br>
  * {@link weekCalender#scanner}<br>
@@ -41,7 +41,7 @@ public class weekCalender {
                 setting = false;
             }else{
                 System.out.println("invalid");
-                input = scanner.nextLine();
+                //input = scanner.nextLine();
             }
 
 
