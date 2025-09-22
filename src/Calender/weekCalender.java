@@ -10,12 +10,12 @@ import java.util.Scanner;
  * {@link weekCalender#scanner}<br>
  * Has methods:<br>
  *{@link #setActivities()} sets activities for weekdays<br>
- *{@link #showWeek()} displyes weekdays and their activities <br>
+ *{@link #showWeek()} displays weekdays and their activities <br>
  */
 
 public class weekCalender {
     /**
-     * activites is an EnumMap referencing {@link weekdays}
+     * activities is an EnumMap referencing {@link weekdays}
      */
     EnumMap<weekdays, String> activities = new EnumMap<>(weekdays.class);
     /**
