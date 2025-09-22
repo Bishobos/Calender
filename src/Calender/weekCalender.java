@@ -10,7 +10,7 @@ import java.util.Scanner;
  * {@link weekCalender#scanner}<br>
  * Has methods:<br>
  *{@link #setActivities()} sets activities for weekdays<br>
- * {@link #showWeek()} displyes weekdays and their activities <br>
+ *{@link #showWeek()} displyes weekdays and their activities <br>
  */
 
 public class weekCalender {
@@ -41,7 +41,6 @@ public class weekCalender {
                 setting = false;
             }else{
                 System.out.println("invalid");
-                //input = scanner.nextLine();
             }
 
 
